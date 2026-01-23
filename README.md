@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hi, I'm Akshay Reddy
 
-<!--
-**internet-zero/internet-zero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Staff AI Engineer** at [Asato.ai](https://asato.ai) | École Polytechnique Alumnus
 
-Here are some ideas to get you started:
+Building the future of AI infrastructure and LLM-powered applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## About Me
+
+I'm a Staff AI Engineer passionate about making AI accessible and production-ready. Currently building **SumerBrain** - an LLM project powered by Unsloth. I enjoy breaking down complex AI concepts and sharing knowledge with the community.
+
+## What I Work On
+
+- **Large Language Models (LLMs)** - Pre-training, fine-tuning, and deployment at scale
+- **Vector Databases** - FAISS, Pinecone, Milvus, Weaviate, Qdrant, Chroma
+- **AI Infrastructure** - Building production-grade AI systems
+- **Gen AI for Data Engineering** - Bridging the gap between data pipelines and AI
+
+## Technical Interests
+
+```
+LLMs & Transformers | Vector Embeddings | Similarity Search
+Indexing Methods (Flat, HNSW, IVF, PQ, IVFPQ) | RAG Systems
+AI Infrastructure | MLOps | Data Engineering
+```
+
+## Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/internet-zero/)
+
+---
+
+*"AI as core infrastructure, not just a tool."*
