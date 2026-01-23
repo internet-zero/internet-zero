@@ -25,9 +25,11 @@ Staff AI Engineer at [Asato.ai](https://asato.ai) | École Polytechnique
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=internet-zero&show_icons=true&theme=default)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=internet-zero&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=internet-zero&layout=compact)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=internet-zero&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=internet-zero&layout=compact&theme=tokyonight)
 
 ## Connect
 
