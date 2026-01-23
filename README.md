@@ -23,6 +23,12 @@ Staff AI Engineer at [Asato.ai](https://asato.ai) | École Polytechnique
 - **Indexing**: HNSW, IVF, PQ
 - **Areas**: RAG systems, MLOps, Data Engineering
 
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=internet-zero&show_icons=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=internet-zero&layout=compact)
+
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/internet-zero/)
