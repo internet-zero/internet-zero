@@ -1,12 +1,19 @@
 # Akshay Reddy
 
-Staff AI Engineer at [Asato.ai](https://asato.ai)
+Staff AI Engineer at [Asato.ai](https://asato.ai) | École Polytechnique
 
 ## Working On
 
-- LLMs and fine-tuning
-- Vector databases
-- AI infrastructure
+- **SumerBrain** - LLM project powered by Unsloth
+- Production AI infrastructure
+- Making LLMs accessible at scale
+
+## Tech Stack
+
+- **LLMs**: Pre-training, fine-tuning, deployment
+- **Vector DBs**: FAISS, Pinecone, Milvus, Weaviate, Qdrant, Chroma
+- **Indexing**: HNSW, IVF, PQ
+- **Areas**: RAG systems, MLOps, Data Engineering
 
 ## Connect
 
