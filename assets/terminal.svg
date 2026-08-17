@@ -1,10 +1,10 @@
 <svg viewBox="0 0 860 556" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15">
   <defs>
-    <clipPath id="c1"><rect x="28" y="66" width="0" height="22"><animate attributeName="width" from="0" to="82" begin="0.4s" dur="0.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c2"><rect x="28" y="131" width="0" height="22"><animate attributeName="width" from="0" to="240" begin="1.6s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c3"><rect x="28" y="327" width="0" height="22"><animate attributeName="width" from="0" to="130" begin="4.9s" dur="0.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c4"><rect x="28" y="388" width="0" height="22"><animate attributeName="width" from="0" to="120" begin="6.1s" dur="0.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c5"><rect x="28" y="449" width="0" height="22"><animate attributeName="width" from="0" to="148" begin="7.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c0"><rect x="46" y="66" width="0" height="22"><animate attributeName="width" values="0;9;18;27;36;45;54" calcMode="discrete" begin="0.55s" dur="0.54s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c1"><rect x="46" y="131" width="0" height="22"><animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207" calcMode="discrete" begin="1.89s" dur="1.15s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="46" y="327" width="0" height="22"><animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99" calcMode="discrete" begin="4.59s" dur="0.55s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="46" y="388" width="0" height="22"><animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90" calcMode="discrete" begin="5.94s" dur="0.50s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="46" y="449" width="0" height="22"><animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117" calcMode="discrete" begin="7.24s" dur="0.65s" fill="freeze"/></rect></clipPath>
   </defs>
 
   <!-- window -->
@@ -16,43 +16,36 @@
   <line x1="1" y1="44" x2="859" y2="44" stroke="#21262d"/>
 
   <!-- whoami -->
-  <g clip-path="url(#c1)">
-    <text x="28" y="82"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
-  </g>
-  <text x="28" y="109" fill="#e6edf3" opacity="0">akshay reddy — staff ai engineer · agentic systems · bangalore<animate attributeName="opacity" to="1" begin="1.0s" dur="0.3s" fill="freeze"/></text>
-
-  <!-- agents stats command -->
-  <g clip-path="url(#c2)">
-    <text x="28" y="147"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">./agents --prod --stats</tspan></text>
-  </g>
-  <text x="46" y="174" opacity="0"><tspan fill="#8b949e">agents deployed ......... </tspan><tspan fill="#ffa657" font-weight="bold">20+</tspan><animate attributeName="opacity" to="1" begin="2.6s" dur="0.25s" fill="freeze"/></text>
-  <text x="46" y="201" opacity="0"><tspan fill="#8b949e">accuracy ................ </tspan><tspan fill="#ffa657" font-weight="bold">80% → 96%+</tspan><animate attributeName="opacity" to="1" begin="2.9s" dur="0.25s" fill="freeze"/></text>
-  <text x="46" y="228" opacity="0"><tspan fill="#8b949e">response time ........... </tspan><tspan fill="#ffa657" font-weight="bold">3–5 min → &lt;30 s</tspan><animate attributeName="opacity" to="1" begin="3.2s" dur="0.25s" fill="freeze"/></text>
-  <text x="46" y="255" opacity="0"><tspan fill="#8b949e">eval cases .............. </tspan><tspan fill="#ffa657" font-weight="bold">500+</tspan><tspan fill="#8b949e"> pre-deploy</tspan><animate attributeName="opacity" to="1" begin="3.5s" dur="0.25s" fill="freeze"/></text>
-  <text x="46" y="282" opacity="0"><tspan fill="#8b949e">knowledge graph ......... </tspan><tspan fill="#ffa657" font-weight="bold">4k → 30k</tspan><tspan fill="#8b949e"> assets @ 99%</tspan><animate attributeName="opacity" to="1" begin="3.8s" dur="0.25s" fill="freeze"/></text>
-  <text x="46" y="309" opacity="0"><tspan fill="#8b949e">inference latency ....... </tspan><tspan fill="#ffa657" font-weight="bold">150 ms</tspan><tspan fill="#8b949e"> (tensorrt)</tspan><animate attributeName="opacity" to="1" begin="4.1s" dur="0.25s" fill="freeze"/></text>
-
-  <!-- patents -->
-  <g clip-path="url(#c3)">
-    <text x="28" y="343"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">ls patents/</tspan></text>
-  </g>
-  <text x="28" y="370" fill="#79c0ff" opacity="0">agent-construction   data-products   payment-prediction-ml<animate attributeName="opacity" to="1" begin="5.6s" dur="0.3s" fill="freeze"/></text>
-
-  <!-- honors -->
-  <g clip-path="url(#c4)">
-    <text x="28" y="404"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">ls honors/</tspan></text>
-  </g>
-  <text x="28" y="431" opacity="0"><tspan fill="#79c0ff">mistral-ai-hackathon.</tspan><tspan fill="#ffa657" font-weight="bold">1st</tspan><tspan fill="#79c0ff">   totalenergies-scholar.</tspan><tspan fill="#ffa657" font-weight="bold">€32k</tspan><tspan fill="#79c0ff">   eu-blue-horizon.</tspan><tspan fill="#ffa657" font-weight="bold">2020</tspan><animate attributeName="opacity" to="1" begin="6.8s" dur="0.3s" fill="freeze"/></text>
-
-  <!-- education -->
-  <g clip-path="url(#c5)">
-    <text x="28" y="465"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">cat education</tspan></text>
-  </g>
-  <text x="28" y="492" opacity="0"><tspan fill="#e6edf3">msc</tspan><tspan fill="#8b949e"> — école polytechnique, paris (data science) · </tspan><tspan fill="#e6edf3">b.e.</tspan><tspan fill="#8b949e"> — national institute of engineering</tspan><animate attributeName="opacity" to="1" begin="8.0s" dur="0.3s" fill="freeze"/></text>
-
+  <text x="28" y="82" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="0.15s" fill="freeze"/></text>
+  <g clip-path="url(#c0)"><text x="46" y="82" fill="#e6edf3" textLength="54" lengthAdjust="spacing">whoami</text></g>
+  <rect x="46" y="68" width="9" height="18" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="0.85" begin="0.15s"/><animate attributeName="x" values="46;55;64;73;82;91;100" calcMode="discrete" begin="0.55s" dur="0.54s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.24s" fill="freeze"/></rect>
+  <text x="28" y="109" opacity="0"><tspan fill="#e6edf3">akshay reddy — staff ai engineer · agentic systems · bangalore</tspan><set attributeName="opacity" to="1" begin="1.24s" fill="freeze"/></text>
+  <!-- agents -->
+  <text x="28" y="147" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="1.49s" fill="freeze"/></text>
+  <g clip-path="url(#c1)"><text x="46" y="147" fill="#e6edf3" textLength="207" lengthAdjust="spacing">./agents --prod --stats</text></g>
+  <rect x="46" y="133" width="9" height="18" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="0.85" begin="1.49s"/><animate attributeName="x" values="46;55;64;73;82;91;100;109;118;127;136;145;154;163;172;181;190;199;208;217;226;235;244;253" calcMode="discrete" begin="1.89s" dur="1.15s" fill="freeze"/><set attributeName="opacity" to="0" begin="3.19s" fill="freeze"/></rect>
+  <text x="46" y="174" opacity="0"><tspan fill="#8b949e">agents deployed ......... </tspan><tspan fill="#ffa657" font-weight="bold">20+</tspan><set attributeName="opacity" to="1" begin="3.19s" fill="freeze"/></text>
+  <text x="46" y="201" opacity="0"><tspan fill="#8b949e">accuracy ................ </tspan><tspan fill="#ffa657" font-weight="bold">80% → 96%+</tspan><set attributeName="opacity" to="1" begin="3.34s" fill="freeze"/></text>
+  <text x="46" y="228" opacity="0"><tspan fill="#8b949e">response time ........... </tspan><tspan fill="#ffa657" font-weight="bold">3–5 min → &lt;30 s</tspan><set attributeName="opacity" to="1" begin="3.49s" fill="freeze"/></text>
+  <text x="46" y="255" opacity="0"><tspan fill="#8b949e">eval cases .............. </tspan><tspan fill="#ffa657" font-weight="bold">500+</tspan><tspan fill="#8b949e"> pre-deploy</tspan><set attributeName="opacity" to="1" begin="3.64s" fill="freeze"/></text>
+  <text x="46" y="282" opacity="0"><tspan fill="#8b949e">knowledge graph ......... </tspan><tspan fill="#ffa657" font-weight="bold">4k → 30k</tspan><tspan fill="#8b949e"> assets @ 99%</tspan><set attributeName="opacity" to="1" begin="3.79s" fill="freeze"/></text>
+  <text x="46" y="309" opacity="0"><tspan fill="#8b949e">inference latency ....... </tspan><tspan fill="#ffa657" font-weight="bold">150 ms</tspan><tspan fill="#8b949e"> (tensorrt)</tspan><set attributeName="opacity" to="1" begin="3.94s" fill="freeze"/></text>
+  <!-- ls -->
+  <text x="28" y="343" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="4.19s" fill="freeze"/></text>
+  <g clip-path="url(#c2)"><text x="46" y="343" fill="#e6edf3" textLength="99" lengthAdjust="spacing">ls patents/</text></g>
+  <rect x="46" y="329" width="9" height="18" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="0.85" begin="4.19s"/><animate attributeName="x" values="46;55;64;73;82;91;100;109;118;127;136;145" calcMode="discrete" begin="4.59s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="5.29s" fill="freeze"/></rect>
+  <text x="28" y="370" opacity="0"><tspan fill="#79c0ff">agent-construction   data-products   payment-prediction-ml</tspan><set attributeName="opacity" to="1" begin="5.29s" fill="freeze"/></text>
+  <!-- ls -->
+  <text x="28" y="404" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="5.54s" fill="freeze"/></text>
+  <g clip-path="url(#c3)"><text x="46" y="404" fill="#e6edf3" textLength="90" lengthAdjust="spacing">ls honors/</text></g>
+  <rect x="46" y="390" width="9" height="18" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="0.85" begin="5.54s"/><animate attributeName="x" values="46;55;64;73;82;91;100;109;118;127;136" calcMode="discrete" begin="5.94s" dur="0.50s" fill="freeze"/><set attributeName="opacity" to="0" begin="6.59s" fill="freeze"/></rect>
+  <text x="28" y="431" opacity="0"><tspan fill="#79c0ff">mistral-ai-hackathon.</tspan><tspan fill="#ffa657" font-weight="bold">1st</tspan><tspan fill="#79c0ff">   totalenergies-scholar.</tspan><tspan fill="#ffa657" font-weight="bold">€32k</tspan><tspan fill="#79c0ff">   eu-blue-horizon.</tspan><tspan fill="#ffa657" font-weight="bold">2020</tspan><set attributeName="opacity" to="1" begin="6.59s" fill="freeze"/></text>
+  <!-- cat -->
+  <text x="28" y="465" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="6.84s" fill="freeze"/></text>
+  <g clip-path="url(#c4)"><text x="46" y="465" fill="#e6edf3" textLength="117" lengthAdjust="spacing">cat education</text></g>
+  <rect x="46" y="451" width="9" height="18" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="0.85" begin="6.84s"/><animate attributeName="x" values="46;55;64;73;82;91;100;109;118;127;136;145;154;163" calcMode="discrete" begin="7.24s" dur="0.65s" fill="freeze"/><set attributeName="opacity" to="0" begin="8.04s" fill="freeze"/></rect>
+  <text x="28" y="492" opacity="0"><tspan fill="#e6edf3">msc</tspan><tspan fill="#8b949e"> — école polytechnique, paris (data science) · </tspan><tspan fill="#e6edf3">b.e.</tspan><tspan fill="#8b949e"> — national institute of engineering</tspan><set attributeName="opacity" to="1" begin="8.04s" fill="freeze"/></text>
   <!-- final prompt + blinking cursor -->
-  <text x="28" y="526" fill="#3fb950" opacity="0">$<animate attributeName="opacity" to="1" begin="8.5s" dur="0.2s" fill="freeze"/></text>
-  <rect x="46" y="512" width="9" height="18" fill="#e6edf3" opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" begin="8.5s" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <text x="28" y="526" fill="#3fb950" opacity="0">$<set attributeName="opacity" to="1" begin="8.29s" fill="freeze"/></text>
+  <rect x="46" y="512" width="9" height="18" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" begin="8.29s" dur="1.2s" repeatCount="indefinite"/></rect>
 </svg>
