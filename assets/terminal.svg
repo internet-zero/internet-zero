@@ -36,7 +36,7 @@
   <g clip-path="url(#c3)">
     <text x="28" y="343"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">ls patents/</tspan></text>
   </g>
-  <text x="28" y="370" fill="#79c0ff" opacity="0">agent-construction.pending   data-products.pending   payment-ml.pending<animate attributeName="opacity" to="1" begin="5.6s" dur="0.3s" fill="freeze"/></text>
+  <text x="28" y="370" fill="#79c0ff" opacity="0">agent-construction   data-products   payment-prediction-ml<animate attributeName="opacity" to="1" begin="5.6s" dur="0.3s" fill="freeze"/></text>
 
   <!-- honors -->
   <g clip-path="url(#c4)">
